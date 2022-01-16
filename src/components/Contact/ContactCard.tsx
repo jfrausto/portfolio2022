@@ -2,7 +2,7 @@ import React from 'react';
 import {Flex, Heading, Spacer} from '@chakra-ui/react';
 import { FaGithub, FaLinkedin, FaGoogle, FaFileAlt } from "react-icons/fa";
 import { ContactCardLink } from './ContactCardLink';
-// import { MessageModal } from './MessageModal';
+import { MessageModal } from './MessageModal';
 
 
 export const ContactCard: React.FC = () => {
@@ -52,8 +52,8 @@ export const ContactCard: React.FC = () => {
             text={"Resume"}
           />
 
-          {/* <Spacer/> */}
-          {/* <MessageModal /> */}
+          <Spacer/>
+          <MessageModal />
 
         </Flex>
       </Flex>
