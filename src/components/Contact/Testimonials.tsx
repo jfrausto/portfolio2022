@@ -30,25 +30,25 @@ export const Testimonials: React.FC = () => {
 
           <TestimonialCard
             // mb={2}
-            imgSrc="https://source.unsplash.com/3TLl_97HNJo/300x300" 
-            firstAndLastName="Jesse Frausto" 
+            imgSrc="/static/images/JOSE_PEREZ_2022_PHOTO.png" 
+            firstAndLastName="Jose Perez Jr" 
             flexDirection="row"
             author="Jose Perez Jr."
             quote="Intelligent, diligent, and hard-working. Jesse fulfills the role of 'Point-Man' and displays a high sense of pride in his work. Above all, he's the best coding partner you can ask for!"
           />
           <TestimonialCard 
             imgSrc="https://source.unsplash.com/3TLl_97HNJo/300x300" 
-            firstAndLastName="Jesse Frausto" 
+            firstAndLastName="Michael Moreno" 
             flexDirection="row-reverse"
             author="Michael Moreno"
             quote="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis"
           />
           <TestimonialCard 
-            imgSrc="https://source.unsplash.com/3TLl_97HNJo/300x300" 
-            firstAndLastName="Jesse Frausto" 
+            imgSrc="/static/images/C_KINNEY_2022_PHOTO.JPG" 
+            firstAndLastName="Courtney Kinney" 
             flexDirection="row"
             author="Courtney Kinney"
-            quote="nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+            quote="Working with Mr. Frausto has been an honor. He has been the epitome of how one should work within a team and shown his strength as a leader within his peers. Mr. Frausto has been a pleasure to work with each and every day."
           />
         </Flex> 
       </Flex>
