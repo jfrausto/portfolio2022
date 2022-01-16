@@ -13,18 +13,31 @@ import {
   Flex
 } from '@chakra-ui/react';
 import { MessageForm } from './MessageForm';
+import { trpc } from '../../utils/trpc';
+
+
 
 export const MessageModal:React.FC = () => {
 
   const {isOpen, onOpen, onClose} = useDisclosure();
-  const finalRef = useRef();
+  // const finalRef = useRef();
   const [isValidSend, setValidSend ] = useState(false);
+
+  const {data, isLoading} = trpc.useQuery(["hello", {text: "Jesse"}]);
+  
+  if(isLoading) {
+    console.log("loading...");
+    return <div></div>;
+  } else {
+    console.log(data?.greeting);
+  }
+
 
   return (
     <>
       <Button
         // px={"-10px"}
-        ref={finalRef}
+        // ref={finalRef}
         // alignSelf={"fl"}
         // justifySelf={"flex-end"}
         // flexGrow={}
@@ -37,7 +50,10 @@ export const MessageModal:React.FC = () => {
       </Button>
       <Modal 
         // minH={"50vh"}
-        finalFocusRef={finalRef} isOpen={isOpen} onClose={onClose}>
+        // finalFocusRef={finalRef} 
+        isOpen={isOpen} 
+        onClose={onClose}
+      >
         <ModalOverlay />
         <ModalContent
           minH={"500px"}
