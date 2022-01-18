@@ -22,15 +22,36 @@ export const MessageModal:React.FC = () => {
   const {isOpen, onOpen, onClose} = useDisclosure();
   // const finalRef = useRef();
   const [isValidSend, setValidSend ] = useState(false);
+  const [hasBeenSent, setHasBeenSent] = useState(false);
+  // const {data, refetch}= trpc.useQuery(["send-me-a-dm", {from:"Jesse", text: "YOOOO"}], {
+  //   refetchOnWindowFocus: false,
+  //   enabled: hasBeenSent
+  // });
+  // console.log(data?.testingThis);
+  console.log("refresh message modal");
 
-  const {data, isLoading} = trpc.useQuery(["hello", {text: "Jesse"}]);
-  
-  if(isLoading) {
-    console.log("loading...");
-    return <div></div>;
-  } else {
-    console.log(data?.greeting);
+
+  // const [nameVal, setNameVal] = useState<string>("");
+  // const [msgVal, setMsgVal] = useState<string>("");
+
+  // bring states of the form up to this parent level
+  // pass down the callbacks to update the parent state to the child
+
+  const msgDone = () => {
+    setHasBeenSent(false);
   }
+
+  const sendMsgHandler: React.MouseEventHandler<HTMLButtonElement> = (e) => {
+    e.preventDefault();
+    // refetch();
+    setHasBeenSent(true);
+    // console.log(data?.testingThis);
+    console.log("wow");
+    msgDone();
+  };
+
+
+  
 
 
   return (
@@ -89,6 +110,7 @@ export const MessageModal:React.FC = () => {
                 colorScheme='blue'
                 ml={3}
                 w={"50%"}
+                onClick={sendMsgHandler}
               >
                 Send
               </Button>

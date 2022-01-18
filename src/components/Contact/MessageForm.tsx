@@ -13,7 +13,10 @@ import {
 } from '@chakra-ui/react';
 
 interface MessageFormProps {
-  setValidSend: React.Dispatch<React.SetStateAction<boolean>>
+  setValidSend: React.Dispatch<React.SetStateAction<boolean>>,
+  // nameVal: string,
+  // msgVal: string,
+
 }
 
 export const MessageForm: React.FC<MessageFormProps> = ({setValidSend}) => {

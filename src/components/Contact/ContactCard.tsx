@@ -6,6 +6,9 @@ import { MessageModal } from './MessageModal';
 
 
 export const ContactCard: React.FC = () => {
+  console.log("refresh contact card");
+
+
   return (
     <>
       <Flex
