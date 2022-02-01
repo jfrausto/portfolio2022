@@ -1,7 +1,7 @@
 import { Flex, Heading } from '@chakra-ui/react'
 
 
-export const HeroText = ({ title }: { title: string }) => (
+export const HeroText = () => (
   <Flex
     direction={"column"}
     justifyContent="center"
@@ -15,10 +15,8 @@ export const HeroText = ({ title }: { title: string }) => (
     maxW={["75vw", "60vw", "60vw", "50vw"]}
     zIndex={3}
   >
-    <Heading fontSize={["5xl", "6xl", "8xl", "8xl"]} textAlign={["center", "center", "center", "center"]}>{title}</Heading>
+    <Heading fontSize={["5xl", "6xl", "8xl", "8xl"]} textAlign={["center", "center", "center", "center"]}>Jesse Frausto.</Heading>
+    <Heading fontSize={["5xl", "6xl", "8xl", "8xl"]} textAlign={["center", "center", "center", "center"]}>Full-Stack Web Developer.</Heading>
   </Flex>
 )
 
-HeroText.defaultProps = {
-  title: 'Jesse Frausto. \nFull-Stack Web Developer.',
-}

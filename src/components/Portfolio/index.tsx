@@ -70,6 +70,14 @@ export const Portfolio: React.FC = () => {
               desc={description.learningSquad}
             />
             <ProjectCard 
+              project="Cryptick"
+              video={"/static/videos/Cryptick.mp4"}
+              prod="https://cryptick.vercel.app/"
+              code="https://github.com/jfrausto/cryptick"
+              tags={cryptickTags}
+              desc={description.cryptick}
+            />
+            <ProjectCard 
               project="Burger DB"
               video={"/static/videos/Burger_DB_TAB_demo.mp4"}
               prod="https://gentle-oasis-33918.herokuapp.com/"
@@ -84,14 +92,6 @@ export const Portfolio: React.FC = () => {
               code="https://github.com/jfrausto/Budget-Tracker"
               tags={budgetTrackTags}
               desc={description.budgetTracker}
-            />
-            <ProjectCard 
-              project="Cryptick"
-              video={"/static/videos/Cryptick.mp4"}
-              prod="https://cryptick.vercel.app/"
-              code="https://github.com/jfrausto/cryptick"
-              tags={cryptickTags}
-              desc={description.cryptick}
             />
         </Flex>
       </Container>

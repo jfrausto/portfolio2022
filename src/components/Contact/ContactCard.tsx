@@ -2,7 +2,7 @@ import React from 'react';
 import {Flex, Heading, Spacer} from '@chakra-ui/react';
 import { FaGithub, FaLinkedin, FaGoogle, FaFileAlt } from "react-icons/fa";
 import { ContactCardLink } from './ContactCardLink';
-// import { MessageModal } from './MessageModal';
+import { MessageModal } from './MessageModal';
 
 
 export const ContactCard: React.FC = () => {
@@ -48,7 +48,7 @@ export const ContactCard: React.FC = () => {
           />
           <ContactCardLink
             iconImg={FaFileAlt}
-            link={"https://chakra-ui.com"}
+            link={"https://docs.google.com/document/d/1saC4MYSrxXTkiqKKhB1F4PgdIMbq0EhHPJQZzKQM66I/edit?usp=sharing"}
             text={"Resume"}
           />
 

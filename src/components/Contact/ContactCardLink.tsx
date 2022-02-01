@@ -25,7 +25,7 @@ export const ContactCardLink: React.FC<ContactCardLinkProps> = ({iconImg, link, 
           pr={4}
         />
         <Link href={link} isExternal>
-          {text}
+          <u>{text}</u>
         </Link>
       </Flex>
     </>

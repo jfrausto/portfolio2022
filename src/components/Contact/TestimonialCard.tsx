@@ -1,15 +1,17 @@
 import React from 'react';
-import { Flex, Avatar, Text, VStack } from '@chakra-ui/react';
+import { Flex, Avatar, Text, VStack, Link } from '@chakra-ui/react';
 
 interface TestimonialCardProps{
   quote: string,
-  author: string
+  author: string,
+  githubSrc?: string,
+  job: string,
   imgSrc: string, 
   firstAndLastName: string, 
   flexDirection: "row" | "row-reverse",
 };
 
-export const TestimonialCard: React.FC<TestimonialCardProps> = ({ imgSrc, firstAndLastName, flexDirection, quote, author }) => {
+export const TestimonialCard: React.FC<TestimonialCardProps> = ({ imgSrc, githubSrc, firstAndLastName, flexDirection, quote, author, job }) => {
   return (
     <>
       <Flex
@@ -18,6 +20,9 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = ({ imgSrc, firstA
         justifyContent="space-evenly"
         alignItems="center"
         alignContent="center"
+        style={{ 
+          gap: "10px"
+        }}
       >
         {/* photo circle */}
         <VStack
@@ -29,8 +34,21 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = ({ imgSrc, firstA
           boxSize={[90,20,24,28]}
           src={imgSrc} 
         />
-        <Text>
-          {author}
+          {githubSrc ? <Link
+            href={githubSrc ? githubSrc : "#contact"}
+            isExternal
+            
+          >
+            <u>{author}</u>
+          </Link> : <Text> {author} </Text>
+          }
+        <Text
+          as="i"
+          position={"relative"}
+          top={-3}
+          maxW={"100%"}
+        >
+          {job}
         </Text>
         </VStack>
 

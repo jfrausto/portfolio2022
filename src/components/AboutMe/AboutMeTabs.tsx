@@ -26,14 +26,14 @@ export const AboutMeTabs: React.FC = () => {
               fontSize={19} 
               
             >
-              me
+              Me
             </Tab>
             <Tab 
               mr={4} 
               boxSize={16} 
               fontSize={19} 
             >
-              technical
+              Technical
             </Tab>
             
           </TabList>
