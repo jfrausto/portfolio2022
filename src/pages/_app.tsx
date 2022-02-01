@@ -2,11 +2,16 @@ import { ChakraProvider } from '@chakra-ui/react';
 import { withTRPC } from '@trpc/next';
 import theme from '../theme';
 import { AppProps } from 'next/app';
-import { AppRouter } from '../server/router/index'
+import { AppRouter } from '../server/router/index';
+import Head from 'next/head';
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ChakraProvider resetCSS theme={theme}>
+    <Head>
+      <title>Jesse Frausto: Web Dev</title>
+      <meta property="og:title" content="Jesse Frausto: Web Dev" key="title" />
+    </Head>
       <Component {...pageProps} />
     </ChakraProvider>
   )

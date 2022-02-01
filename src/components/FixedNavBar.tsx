@@ -25,25 +25,25 @@ export const FixedNavBar:React.FC = () => {
           mr={3}
           href="#hero"
         >
-          Jesse Frausto
+          JF
         </Link>
         <Link
           href="#about"
           ml={[2,2,16,24]}
           mr={[1,2,-4,-8]}
         >
-          about
+          About
         </Link>
         <Link
           mr={[1,2,-4,-8]}
           href="#work"
           >
-          portfolio
+          Portfolio
         </Link>
         <Link
         href="#contact"
         >
-          connect
+          Connect
         </Link>
       </Flex>
     </>

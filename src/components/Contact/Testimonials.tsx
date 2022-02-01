@@ -40,6 +40,7 @@ export const Testimonials: React.FC = () => {
             flexDirection="row"
             job="Web Developer"
             author="Jose Perez Jr."
+            githubSrc='https://github.com/JOCECODE'
             quote="Intelligent, diligent, and hard-working. Jesse fulfills the role of 'Point-Man' and displays a high sense of pride in his work. Determined and even-keeled, he instills confidence in his team. Above all, he's the best coding partner you can ask for!"
           />
           <TestimonialCard
@@ -48,6 +49,7 @@ export const Testimonials: React.FC = () => {
             firstAndLastName="Michael Moreno" 
             flexDirection="row-reverse"
             author="Michael Moreno"
+            githubSrc='https://github.com/mgmoreno22'
             job="Web/UX Developer"
             quote="During every step of our projects, Jesse constantly proved to be one of the most reliable members of our teams showing up with new creative and technical ideas that would move our project in the direction we needed. He was very capable of thinking outside of the box to find solutions to whatever limitations we would face during the creation of our product."
           />

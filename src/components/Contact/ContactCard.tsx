@@ -48,12 +48,12 @@ export const ContactCard: React.FC = () => {
           />
           <ContactCardLink
             iconImg={FaFileAlt}
-            link={"https://chakra-ui.com"}
+            link={"https://docs.google.com/document/d/1saC4MYSrxXTkiqKKhB1F4PgdIMbq0EhHPJQZzKQM66I/edit?usp=sharing"}
             text={"Resume"}
           />
 
-          <Spacer/>
-          <MessageModal />
+          {/* <Spacer/> */}
+          {/* <MessageModal /> */}
 
         </Flex>
       </Flex>
