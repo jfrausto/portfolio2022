@@ -10,6 +10,7 @@ export const Testimonials: React.FC = () => {
         alignItems={"center"}
         justifyContent={"space-evenly"}
         alignContent={"space-around"}
+        px={4}
       >
 
         <Heading size={"xl"}>

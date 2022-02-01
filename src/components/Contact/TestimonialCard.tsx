@@ -34,19 +34,20 @@ export const TestimonialCard: React.FC<TestimonialCardProps> = ({ imgSrc, github
           boxSize={[90,20,24,28]}
           src={imgSrc} 
         />
-          {githubSrc ? <Link
+          {githubSrc ? <Link textAlign={"center"}
             href={githubSrc ? githubSrc : "#contact"}
             isExternal
             
           >
             <u>{author}</u>
-          </Link> : <Text> {author} </Text>
+          </Link> : <Text textAlign={"center"}> {author} </Text>
           }
         <Text
           as="i"
           position={"relative"}
           top={-3}
           maxW={"100%"}
+          textAlign={"center"}
         >
           {job}
         </Text>

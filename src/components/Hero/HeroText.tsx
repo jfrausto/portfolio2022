@@ -13,6 +13,7 @@ export const HeroText = () => (
 
     bgClip="text"
     maxW={["75vw", "60vw", "60vw", "50vw"]}
+    position={"relative"}
     zIndex={2}
   >
     <Heading fontSize={["5xl", "6xl", "8xl", "8xl"]} textAlign={["center", "center", "center", "center"]}>Jesse Frausto.</Heading>
