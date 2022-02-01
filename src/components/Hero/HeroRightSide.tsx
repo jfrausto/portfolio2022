@@ -5,7 +5,7 @@ export const HeroRightSide:React.FC = () => {
   return (
     <>
       <Box
-        zIndex={2}
+        zIndex={1}
         position={"absolute"}
         top={0}
         right={0}

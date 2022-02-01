@@ -6,7 +6,7 @@ export const HeroLeftSide:React.FC = () => {
     <>
     {/* fixed bg left side 50% */}
       <Box
-        zIndex={2}
+        zIndex={1}
         position={"absolute"}
         top={0}
         left={0}
