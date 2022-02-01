@@ -16,6 +16,7 @@ export const FixedNavBar:React.FC = () => {
         width="100vw"
         bg="radial-gradient(circle, rgba(23,23,41,0.80) 55%, rgba(8,8,10,0.95) 100%)"
         style={{ 
+          WebkitBackdropFilter: "blur(12px)",
           backdropFilter: "blur(12px)"
         }}
         borderBottom="1px solid #737373"
