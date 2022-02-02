@@ -28,8 +28,8 @@ export const QuickFactsCard: React.FC = () => {
         />
         <QuickFact 
           icon={FaSeedling}
-          heading={"Currently Learning"}
-          snippet={"TypeScript, Haskell, tRPC"}
+          heading={"Now Learning"}
+          snippet={"TypeScript, Prisma, tRPC"}
         />
         <QuickFact 
           icon={FaItunesNote}
