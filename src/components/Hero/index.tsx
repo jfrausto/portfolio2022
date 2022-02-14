@@ -3,15 +3,25 @@ import { Container } from '../Container';
 import { HeroLeftSide } from './HeroLeftSide';
 import { HeroRightSide } from './HeroRightSide';
 import { HeroText } from './HeroText';
+// import JISO from '../../../public/static/images/J_isometric.PNG';
 
 export const Hero:React.FC = () => {
   return (
     <>
-      <Container id="hero">
+      <Container id="hero"
+        // bg="red.100"
+        direction={"row"}
+        justifyContent={"flex-start"}
+        // minWidth={"100vw"}
+        backgroundImage="url('/static/images/J_isometric.PNG')"
+        backgroundPosition={"66%"}
+        backgroundSize={"contain"}
+        backgroundRepeat={"no-repeat"}
+      >
         {/* zindex 2 */}
-        <HeroLeftSide />
+        {/* <HeroLeftSide /> */}
         {/* zindex 2 */}
-        <HeroRightSide />
+        {/* <HeroRightSide /> */}
         {/* zindex 3 */}
         <HeroText />
       </Container>
