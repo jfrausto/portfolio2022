@@ -13,7 +13,7 @@ export const Hero:React.FC = () => {
         direction={"row"}
         justifyContent={"flex-start"}
         // minWidth={"100vw"}
-        backgroundImage="url('/static/images/J_isometric.PNG')"
+        backgroundImage="url('/static/images/J_isometric_6.PNG')"
         backgroundPosition={"66%"}
         backgroundSize={"contain"}
         backgroundRepeat={"no-repeat"}

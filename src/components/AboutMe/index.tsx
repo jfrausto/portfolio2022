@@ -73,7 +73,7 @@ export const AboutMe:React.FC = () => {
             // bg="linear-gradient(43deg, rgba(205,30,30,0.75) 0%, rgba(199,79,79,0.75) 93%)"
             // bg="radial-gradient(circle, rgba(40,25,25,0.80) 15%, rgba(101,0,0,0.78) 100%)"
             // bg="radial-gradient(circle, rgba(101,0,0,0.78) 15%, rgba(40,25,25,0.90) 100%)"
-            bg="radial-gradient(ellipse at left center, rgba(208,138,138,0.25) 0%, rgba(56,67,100,0.50) 80%)"
+            bg="radial-gradient(ellipse at left center, rgba(254,90,90,0.25) 0%, rgba(56,67,100,0.50) 80%)"
 
             // bg="linear-gradient(45deg, rgba(40,25,25,0.80) 0%, rgba(101,0,0,0.78) 100%)"
           >

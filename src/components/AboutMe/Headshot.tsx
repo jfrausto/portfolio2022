@@ -17,7 +17,7 @@ export const Headshot:React.FC = () => {
         <Box
           // bg="radial-gradient(circle, rgba(238,174,174,0.55) 5%, rgba(148,187,233,0.80) 75%)"
           // bg="radial-gradient(circle, rgba(238,174,174,0.45) 5%, rgba(78,94,162,0.75) 75%)"
-          bg="radial-gradient(circle, rgba(238,174,174,0.45) 5%, rgba(56,67,100,0.50) 75%)"
+          bg="radial-gradient(circle, rgba(254,100,100,0.35) 5%, rgba(56,67,100,0.50) 75%)"
           borderRadius="50%"
         >
           <ChakraImage

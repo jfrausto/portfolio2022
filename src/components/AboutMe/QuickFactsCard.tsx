@@ -10,7 +10,7 @@ export const QuickFactsCard: React.FC = () => {
         // bg={"linear-gradient(43deg, rgba(32,34,47,1) 0%, rgba(45,49,80,1) 96%)"}
         // bg={"linear-gradient(180deg, rgba(45,49,80,0.70) 0%, rgba(49,52,71,0.70) 95%)"}
         // bg="linear-gradient(45deg, rgba(40,25,25,1) 0%, rgba(69,13,13,1) 71%, rgba(64,0,0,0.85) 91%)"
-        bg="radial-gradient(ellipse at center top, rgba(208,138,138,0.27) 0%, rgba(56,67,100,0.50) 75%)"
+        bg="radial-gradient(ellipse at center top, rgba(254,100,100,0.27) 0%, rgba(56,67,100,0.50) 75%)"
         borderRadius={"2xl"}
         p={[1, 3, 3, 4]}
         px={[2, 4, 8, 8]}

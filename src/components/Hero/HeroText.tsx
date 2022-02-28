@@ -9,12 +9,12 @@ export const HeroText = () => (
     height="100vh"
     bg="transparent"
     // pl={"13vw"}
-    pl={["11vw","13vw", "12vw","18vw"]}
+    pl={["9vw","11vw", "11vw","17vw"]}
     // bgGradient="radial-gradient(circle, rgba(238,174,174,1) 0%, rgba(148,187,233,1) 100%)"
     // bg="linear-gradient(rgba(238,208,208,0.58) 19%, rgba(148,187,233,0.70) 50%, rgba(248,248,255,0.80) 73%)"
     // bg="linear-gradient(#e66465, #9198e5)"
 
-    maxW={["49vw", "60vw", "50vw", "46vw"]}
+    maxW={["49vw", "50vw", "50vw", "43vw"]}
     position={"relative"}
     zIndex={2}
     // bgClip="text"

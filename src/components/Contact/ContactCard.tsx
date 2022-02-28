@@ -23,7 +23,7 @@ export const ContactCard: React.FC = () => {
         {/* links */}
         <Flex
           p={8}
-          bg={"radial-gradient(circle at bottom left, rgba(208,138,138,0.38) 4%,  rgba(56,67,100,0.40) 55%), radial-gradient(circle at top right, rgba(68,79,185,0.55) 5%, rgba(49,60,90,0.40) 65%)"}
+          bg={"radial-gradient(circle at bottom left, rgba(254,90,90,0.33) 4%,  rgba(56,67,100,0.40) 55%), radial-gradient(circle at top right, rgba(58,69,255,0.55) 5%, rgba(49,60,90,0.40) 65%)"}
           borderRadius={"2xl"}
           h={["420px", "420px", "420px", "420px"]}
           flexDirection="column"
