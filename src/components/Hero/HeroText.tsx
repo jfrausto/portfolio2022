@@ -10,7 +10,7 @@ export const HeroText = () => (
     alignItems="flex-start"
     height="100vh"
     bg="transparent"
-    gap={"30px"}
+    gap={["10px", "15px", "20px", "20px"]}
     pl={["9vw","11vw", "11vw","17vw"]}
     maxW={["49vw", "50vw", "50vw", "43vw"]}
   >
@@ -23,7 +23,6 @@ export const HeroText = () => (
           borderRadius={"xl"}
           background={"rgba(58, 74, 248, 0.76)"}
           px={2}
-          py={"-20px"}
         >
           Full-Stack
         </chakra.span> 
@@ -35,7 +34,7 @@ export const HeroText = () => (
         textAlign={"left"}
         fontSize={["md", "lg", "xl", "2xl"]} 
         borderRadius={"xl"}
-        p={2}
+        p={[1, 2, 2, 2]}
         background={"rgba(254, 89, 89, 0.67)"}
       >
         Let's Connect <ArrowForwardIcon pb={1} />
