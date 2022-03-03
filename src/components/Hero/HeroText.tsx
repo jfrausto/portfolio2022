@@ -1,47 +1,45 @@
-import { Flex, Heading } from '@chakra-ui/react'
+import { Flex, Heading, chakra } from '@chakra-ui/react';
+import { ArrowForwardIcon } from '@chakra-ui/icons';
 
 
 export const HeroText = () => (
+
   <Flex
     direction={"column"}
     justifyContent="center"
-    alignItems="center"
+    alignItems="flex-start"
     height="100vh"
     bg="transparent"
-    // pl={"13vw"}
+    gap={"30px"}
     pl={["9vw","11vw", "11vw","17vw"]}
-    // bgGradient="radial-gradient(circle, rgba(238,174,174,1) 0%, rgba(148,187,233,1) 100%)"
-    // bg="linear-gradient(rgba(238,208,208,0.58) 19%, rgba(148,187,233,0.70) 50%, rgba(248,248,255,0.80) 73%)"
-    // bg="linear-gradient(#e66465, #9198e5)"
-
     maxW={["49vw", "50vw", "50vw", "43vw"]}
-    position={"relative"}
-    zIndex={2}
-    // bgClip="text"
-    // bgClip={""}
-    // style={{ 
-    // //   backgroundClip: "text",
-    //   WebkitBackgroundClip: "text"
-    // }}
-
   >
     <Heading 
-      fontSize={["3xl", "5xl", "6xl", "7xl"]} 
+      fontSize={["2xl", "5xl", "6xl", "6xl"]} 
       textAlign={"left"}
-      bgGradient="linear-gradient(rgba(248,248,255,0.80) 13%, rgba(80,101,146,0.98) 50%, rgba(248,248,255,0.80) 83%)"
-      bgClip={"text"}
-      // textShadow={""}
-
-
-      // style={{ 
-      //   WebkitBackgroundClip: "text",
-      //   backgroundClip: "text"
-      //  }}
       >
-        Jesse Frausto.<br />
-        Full-Stack Web Developer.
+        <chakra.span position={"relative"} top={[-1, -1, -2, -2]}>Jesse Frausto. </chakra.span><br />
+        <chakra.span 
+          borderRadius={"xl"}
+          background={"rgba(58, 74, 248, 0.76)"}
+          px={2}
+          py={"-20px"}
+        >
+          Full-Stack
+        </chakra.span> 
+        <br /> 
+        Web Developer.
       </Heading>
-    {/* <Heading fontSize={["5xl", "6xl", "8xl", "8xl"]} textAlign={"center"}>Full-Stack Web Developer.</Heading> */}
+
+      <Heading
+        textAlign={"left"}
+        fontSize={["md", "lg", "xl", "2xl"]} 
+        borderRadius={"xl"}
+        p={2}
+        background={"rgba(254, 89, 89, 0.67)"}
+      >
+        Let's Connect <ArrowForwardIcon pb={1} />
+      </Heading>
   </Flex>
 )
 
