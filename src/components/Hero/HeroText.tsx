@@ -21,10 +21,11 @@ export const HeroText = () => (
         <chakra.span position={"relative"} top={[-1, -1, -2, -2]}>Jesse Frausto. </chakra.span><br />
         <chakra.span 
           borderRadius={"xl"}
-          background={"rgba(58, 74, 248, 0.76)"}
+          // background={"rgba(58, 74, 248, 0.76)"}
+          background={"linear-gradient(45deg, rgba(58, 74, 248, 0.76), rgba(254, 89, 89, 0.67))"}
           px={2}
         >
-          Full-Stack
+          Front End
         </chakra.span> 
         <br /> 
         Web Developer.
@@ -33,9 +34,9 @@ export const HeroText = () => (
       <Heading
         textAlign={"left"}
         fontSize={["md", "lg", "xl", "2xl"]} 
-        borderRadius={"xl"}
+        // borderRadius={"xl"}
         p={[1, 2, 2, 2]}
-        background={"rgba(254, 89, 89, 0.67)"}
+        // background={"rgba(254, 89, 89, 0.67)"}
       >
         Let's Connect <ArrowForwardIcon pb={1} />
       </Heading>

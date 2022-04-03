@@ -44,9 +44,10 @@ export const Bio:React.FC = () => {
       >
         The bottom line is I love to solve problems. 
         I live for those "Aha!" breakthrough moments! 
-        I like working on back-end development figuring out the underlying connections and intricacies in each application I build.
-        Working on front-end development, putting on the "makeup", and creating responsive web design is a joy. 
-        I like working with different types of people. 
+        Creating intuitive, aesthetic user-oriented interfaces is a passion of mine. 
+        The creative process of writing a robust front-end system is a pleasure.
+        But it takes a village to truly create something great.
+        I like working with different types of people; each member of the team contributes a unique view.
         I believe this passion during the development process can be felt by the people around me, 
         and creates a product that exceeds expectations.
       </Text>
