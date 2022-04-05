@@ -38,7 +38,7 @@ export const ContactCard: React.FC = () => {
           />
           <ContactCardLink
             iconImg={FaLinkedin}
-            link={"https://www.linkedin.com/in/jesse-f-9182331ab/"}
+            link={"https://www.linkedin.com/in/jesse-frausto-9182331ab/"}
             text={"LinkedIn"}
           />
           <ContactCardLink
