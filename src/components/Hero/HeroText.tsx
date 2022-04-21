@@ -1,4 +1,4 @@
-import { Flex, Heading, chakra } from '@chakra-ui/react';
+import { Flex, Heading, chakra, Link } from '@chakra-ui/react';
 import { ArrowForwardIcon } from '@chakra-ui/icons';
 
 
@@ -36,9 +36,12 @@ export const HeroText = () => (
         fontSize={["md", "lg", "xl", "2xl"]} 
         // borderRadius={"xl"}
         p={[1, 2, 2, 2]}
+        as={Link}
+
+        href="#about"
         // background={"rgba(254, 89, 89, 0.67)"}
       >
-        Let's Connect <ArrowForwardIcon pb={1} />
+        <u>Let's Connect <ArrowForwardIcon pb={1} /></u>
       </Heading>
   </Flex>
 )
