@@ -1,6 +1,6 @@
 import React from 'react';
 import { chakra, Flex, Heading, Text, LinkBox, Box, 
-  List, ListItem, ListIcon, ButtonGroup, Button } from '@chakra-ui/react';
+  List, ListItem, ListIcon, ButtonGroup, Button, Image } from '@chakra-ui/react';
 import { SettingsIcon, ExternalLinkIcon } from '@chakra-ui/icons';
 import { FaGithub } from 'react-icons/fa';
 
@@ -33,15 +33,30 @@ export const ProjectCard:React.FC<ProjectCardProps> = ({ project, video, prod, c
         m={4}
       >
 
-        <Heading m={3}>
+        <Heading m={3} alignSelf="center">
           {project}
         </Heading>
 
-        <Box m={3}>          
-          <video autoPlay={true} loop={true}>
+        <Flex m={3}
+          direction="row"
+          justifyContent="center"
+          alignItems="center"
+          alignSelf={"center"}
+        >          
+          {/* <video autoPlay={true} loop={true}>
             <source src={video} type="video/mp4" />
-          </video>
-        </Box>
+          </video> */}
+          <Image 
+            src={video}
+            // height={["", "", "", ""]}
+            maxH="400px"
+            justifyContent={"center"}
+            justifyItems="center"
+            alignContent={"center"}
+            justifySelf="center"
+            alignSelf={"center"}
+          />
+        </Flex>
 
         <Text m={2} pb={4} pl={1.5}>
           {desc}

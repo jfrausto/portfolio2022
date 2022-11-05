@@ -46,48 +46,48 @@ export const Portfolio: React.FC = () => {
           wrap={"wrap"}
         >
             <ProjectCard 
-              project="Vibee"
-              video={"/static/videos/Vibee_TAB_demo.mp4"} 
-              prod="https://evening-sands-41595.herokuapp.com/"
-              code="https://github.com/jfrausto/FindYourVibe"
-              tags={vibeeTags}
-              desc={description.vibee}
-            />
-            <ProjectCard 
-              project="Pub Crawl"
-              video={"/static/videos/Pub_Crawl_Gen_TAB_demo.mp4"}
-              prod="https://willrodgers7.github.io/Ultimate-Pub-Crawl/"
-              code="https://github.com/WillRodgers7/Ultimate-Pub-Crawl"
-              tags={pubCrawlTags}
-              desc={description.pubCrawl}
-            />
-            <ProjectCard 
-              project="Learning Squads"
-              video={"/static/videos/Learn_Squad_TAB_demo.mp4"}
-              prod="https://learn-squad.herokuapp.com/"
-              code="https://github.com/shadysaleh01/Learn-Squad"
-              tags={learnSquadTags}
-              desc={description.learningSquad}
-            />
-            <ProjectCard 
               project="Cryptick"
-              video={"/static/videos/Cryptick.mp4"}
+              video={"/static/images/CRYPTICK_SCREENSHOT.PNG"}
               prod="https://cryptick.vercel.app/"
               code="https://github.com/jfrausto/cryptick"
               tags={cryptickTags}
               desc={description.cryptick}
             />
             <ProjectCard 
-              project="Sleep Cycle Calculator"
-              video={"/static/videos/SCC_DEMO.webm"}
-              prod="https://sleep-cycle-calculator.vercel.app/"
-              code="https://github.com/jfrausto/sleep-calculator"
-              tags={sleepCalcTags}
-              desc={description.sleepCalc}
+              project="Pub Crawl"
+              video={"/static/images/PUB_CRAWL_SCREENSHOT.PNG"}
+              prod="https://willrodgers7.github.io/Ultimate-Pub-Crawl/"
+              code="https://github.com/WillRodgers7/Ultimate-Pub-Crawl"
+              tags={pubCrawlTags}
+              desc={description.pubCrawl}
+            />
+              <ProjectCard 
+                project="Sleep Cycle Calculator"
+                video={"/static/images/SCC_SCREENSHOT.PNG"}
+                prod="https://sleep-cycle-calculator.vercel.app/"
+                code="https://github.com/jfrausto/sleep-calculator"
+                tags={sleepCalcTags}
+                desc={description.sleepCalc}
+              />
+            <ProjectCard 
+              project="Learning Squads"
+              video={"/static/images/LEARN_SQUAD_SCREENSHOT.PNG"}
+              prod="https://learn-squad.herokuapp.com/"
+              code="https://github.com/shadysaleh01/Learn-Squad"
+              tags={learnSquadTags}
+              desc={description.learningSquad}
+            />
+            <ProjectCard 
+              project="Vibee"
+              video={"/static/images/VIBEE_SCREENSHOT.PNG"} 
+              prod="https://evening-sands-41595.herokuapp.com/"
+              code="https://github.com/jfrausto/FindYourVibe"
+              tags={vibeeTags}
+              desc={description.vibee}
             />
             <ProjectCard 
               project="Budget Tracker"
-              video={"/static/videos/Budeget_Tracker_TAB_demo.mp4"}
+              video={"/static/images/BUDGET_TRACKER_SCREENSHOT.PNG"}
               prod="https://rocky-garden-31416.herokuapp.com/"
               code="https://github.com/jfrausto/Budget-Tracker"
               tags={budgetTrackTags}
