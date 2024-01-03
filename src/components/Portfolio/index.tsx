@@ -10,7 +10,7 @@ import {
   pubCrawlTags, 
   learnSquadTags, 
   sleepCalcTags, 
-  budgetTrackTags,
+  caveCafeTags,
   cryptickTags
 } from './ProjectTools';
 
@@ -22,7 +22,7 @@ export const Portfolio: React.FC = () => {
     pubCrawl: "An app that plans a night out for you when you just can't decide! Just choose your city, then a random list of bars and restaurants will be automatically routed. Allows customization of the type of establishments you would like to visit.",
     learningSquad: "A fast paced trivia game. Pick a squad, and take a quiz from 6 different categories. Earn enough 'cash', and you will be able to color your territory on a grid map in the name of your squad! Uses a public 'Jeopardy!' data set.",
     sleepCalc: "A handy sleep cycle calculator. Figure out when you should sleep and wake up. Slightly educational. Scrapes the web for any recent news articles about sleep cycles.",
-    budgetTracker: "A simple, useful budget tracking application. Input your withdrawals and deposits to watch your wealth fluctuate with a fluid chart.",
+    caveCafe: "Warren High School's Cave Cafe coffee ordering web application. Staff at WHS use this app to order cafe style drinks to support our Special Education program.",
     cryptick: "A minimalistic price ticker for crypto currencies. Quickly check current and recent info of your favorite cryptos with a clean and simple interface. Uses the Coinbase API."
   };
 
@@ -86,12 +86,12 @@ export const Portfolio: React.FC = () => {
               desc={description.vibee}
             />
             <ProjectCard 
-              project="Budget Tracker"
-              video={"/static/images/BUDGET_TRACKER_SCREENSHOT.PNG"}
-              prod="https://rocky-garden-31416.herokuapp.com/"
-              code="https://github.com/jfrausto/Budget-Tracker"
-              tags={budgetTrackTags}
-              desc={description.budgetTracker}
+              project="WHS Cave Cafe Order App"
+              video={"/static/images/Cave_Cafe_Screenshot.PNG"}
+              prod="https://cavecafe.vercel.app/"
+              code="https://github.com/jfrausto/portfolio2022"
+              tags={caveCafeTags}
+              desc={description.caveCafe}
             />
         </Flex>
       </Container>
