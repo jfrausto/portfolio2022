@@ -29,17 +29,17 @@ export const QuickFactsCard: React.FC = () => {
         <QuickFact 
           icon={FaSeedling}
           heading={"Now Learning"}
-          snippet={"TypeScript, Prisma, tRPC"}
+          snippet={"Astro, Expo (React Native)"}
         />
         <QuickFact 
           icon={FaItunesNote}
           heading={"Music"}
-          snippet={"Funk, Psych, R&B"}
+          snippet={"Funk, Psych, R&B, Piano"}
         />
         <QuickFact 
           icon={FaFire}
           heading={"Current Interests"}
-          snippet={"Cryptos, Music Production"}
+          snippet={"Fitness, Blockchain Tech"}
         />
       </Grid>
 

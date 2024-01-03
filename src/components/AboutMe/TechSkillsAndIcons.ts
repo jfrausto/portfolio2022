@@ -7,7 +7,9 @@ import {
   SiMongodb, SiSocketdotio,
   SiJquery, SiMysql,
   SiExpress, SiChakraui,
-  SiFirebase, SiBootstrap
+  SiFirebase, SiBootstrap,
+  SiTailwindcss, SiTrpc, SiPrisma,
+  SiPlanetscale, SiAstro
 } from 'react-icons/si';
 
 
@@ -81,9 +83,25 @@ export interface TechSkillIconObj {
     icon: SiFirebase,
     skill: "Firebase"
   },
-  // {
-  //   icon: SiTypescript,
-  //   skill: "Typescript"
-  // },
+  {
+    icon: SiTailwindcss,
+    skill: "Tailwind CSS"
+  },
+  {
+    icon: SiTrpc,
+    skill: "tRPC"
+  },
+  {
+    icon: SiPrisma,
+    skill: "Prisma ORM"
+  },
+  {
+    icon: SiPlanetscale,
+    skill: "Planetscale"
+  },
+  {
+    icon: SiAstro,
+    skill: "Astro"
+  },
 
 ];

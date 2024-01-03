@@ -48,7 +48,7 @@ export const ContactCard: React.FC = () => {
           />
           <ContactCardLink
             iconImg={FaFileAlt}
-            link={"https://docs.google.com/document/d/1saC4MYSrxXTkiqKKhB1F4PgdIMbq0EhHPJQZzKQM66I/edit?usp=sharing"}
+            link={"https://docs.google.com/document/d/1eJuRWxSHWMgNRxbfBnhlhV11bYqNR9YmtUqsWJsd3eM/edit?usp=sharing"}
             text={"Resume"}
           />
 

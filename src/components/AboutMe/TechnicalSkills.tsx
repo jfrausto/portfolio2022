@@ -21,7 +21,7 @@ export const TechnicalSkills: React.FC = () => {
         </Heading>
         <Grid templateColumns="repeat(2, 1fr)" 
           columnGap={[4,16,32,32]}
-          rowGap={[4,4,4,4]}
+          rowGap={[1,1,1,1]}
           p={1} 
         >
           {

@@ -24,7 +24,7 @@ export const Bio:React.FC = () => {
       > 
         Welcome! I’m from East Los Angeles, California and I love coding, creating, and exploring the web. 
         I have a passion for building intuitive applications that are useful and fun to navigate. 
-        I enjoy using technology such as JavaScript, React, and NodeJs
+        I enjoy using technology such as TypeScript, React, Node/Bun, and Astro
         to capture the client's mission and deliver a product with clear, concise, and robust code.
       </Text>
       <br/>

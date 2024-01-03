@@ -22,7 +22,7 @@ export const Portfolio: React.FC = () => {
     pubCrawl: "An app that plans a night out for you when you just can't decide! Just choose your city, then a random list of bars and restaurants will be automatically routed. Allows customization of the type of establishments you would like to visit.",
     learningSquad: "A fast paced trivia game. Pick a squad, and take a quiz from 6 different categories. Earn enough 'cash', and you will be able to color your territory on a grid map in the name of your squad! Uses a public 'Jeopardy!' data set.",
     sleepCalc: "A handy sleep cycle calculator. Figure out when you should sleep and wake up. Slightly educational. Scrapes the web for any recent news articles about sleep cycles.",
-    caveCafe: "Warren High School's Cave Cafe coffee ordering web application. Staff at WHS use this app to order cafe style drinks to support our Special Education program.",
+    caveCafe: "Warren High School's Cave Cafe coffee ordering web application. Staff at WHS use this app to order cafe style drinks to support our Special Education program. Full-Stack with user authentication for DUSD employees.",
     cryptick: "A minimalistic price ticker for crypto currencies. Quickly check current and recent info of your favorite cryptos with a clean and simple interface. Uses the Coinbase API."
   };
 
